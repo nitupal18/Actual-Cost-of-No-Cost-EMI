@@ -1,0 +1,104 @@
+$spacer: 1000;
+$myWidth: 580px;
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.h1 {
+    width: 100%;
+    color: rgb(255, 172, 17);
+}
+
+.justify-content-evenly {
+    width: $myWidth;
+}
+
+#input_field {
+    align-items: center;
+}
+
+.form-outline {
+    margin-right: 10px;
+}
+
+.btn {
+    margin-left: 450px;
+}
+
+// .border {
+//     width: 700px;
+//     height: 100px;
+//     padding-top: 35px;
+//     padding-left: 75px;
+//     border-radius: 5px;
+//     margin-left: 150px;
+// }
+
+#content_output {
+    margin-top: 20px;
+}
+
+.table {
+    width: auto !important;
+    margin-left: 40px;
+}
+
+#total_cost {
+    text-align: center;
+}
+
+#cash_flow_heading {
+    text-align: center;
+}
+
+#introduction {
+    text-align: center;
+    text-decoration: double;
+}
+
+#to_emphasize_total_amount {
+    color: rgb(235, 128, 6);
+}
+
+#to_emphasize_total_interest {
+    color: rgb(9, 157, 21);
+}
+
+#irr_emphasize {
+    color: rgb(195, 22, 129);
+}
+
+@media (min-width:375px) and (max-width:667px) {
+    #introduction {
+        font-size: small;
+        text-align: center;
+    }
+
+    #input_field {
+        font-size: small;
+        //margin-left: 100px;
+    }
+
+    #conten_output {
+        font-size: small;
+    }
+
+    .table {
+        white-space: nowrap;
+    }
+    .btn{
+        margin-left: 130px;
+    }
+}
+
+@media (min-width:360px) and (max-width:640px) {
+    p {
+        font-size: small;
+        text-align: center;
+    }
+    .btn{
+        margin-left: 120px;
+    }
+}
