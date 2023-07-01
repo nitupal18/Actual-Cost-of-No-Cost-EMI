@@ -102,3 +102,16 @@ body {
         margin-left: 120px;
     }
 }
+
+.table-container {
+  overflow-x: auto;    // Enable horizontal scrolling
+  max-width: 100%;     // Set the maximum width of the container
+  
+  table {
+    width: 100%;       // Ensure the table expands to fill the container
+    
+    th, td {
+      /* Your table cell styles */
+    }
+  }
+}

@@ -309,7 +309,7 @@ function App() {
             Below you can see the cash flow and its detials.
           </p>
         </div>
-        <div id="amortization_table">
+        <div id="amortization_table" class="table-container">
           {/* <table responsive id="amortization_tbody" class="table-responsive table table-sm table-bordered table-hover "> */}
           <table responsive size="sm" class="table table-bordered" id="amortization_tbody">
             <thead>
